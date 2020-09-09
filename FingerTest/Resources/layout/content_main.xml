@@ -1,0 +1,26 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:id="@+id/info_area"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="false"
+        android:text="RA/AZ  : STOP\nDEC/ALT: STOP\n"
+        android:textColor="#ffff0505"
+        android:textSize="50px"
+        android:textStyle="normal|bold"
+        android:typeface="monospace"
+        android:paddingLeft="20px"
+        android:paddingTop="20px"
+        android:background="#050505"
+    />
+
+
+</RelativeLayout>
